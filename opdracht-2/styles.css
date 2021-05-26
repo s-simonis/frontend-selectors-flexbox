@@ -3,3 +3,40 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+/*Opdracht 2.1*/
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/*2.2 & 2.3*/
+.two,.three {
+    display: flex;
+    justify-content:space-between;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between ;
+    flex-basis: 25%;
+}
+
+/*2.4*/
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*2.5*/
+.five {
+    display: flex;
+    flex-wrap: wrap;
+}
+.five > article {
+    flex:1 1 30%;
+}
+
