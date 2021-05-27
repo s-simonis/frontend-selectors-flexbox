@@ -40,8 +40,11 @@ nav a:hover {
 
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
 
+/*main a:visited {*/
+/*    color: gold;*/
+/*}*/
 main a:visited {
-    color: blue;
+    color: gold;
 }
 
 main a:hover {
